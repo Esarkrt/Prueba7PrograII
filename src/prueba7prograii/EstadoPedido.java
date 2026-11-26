@@ -7,6 +7,13 @@ package prueba7prograii;
 public enum EstadoPedido {
     PENDIENTE("Pendiente"), EN_PREPARACION("En preparación"), LISTO("Listo"), ENTREGADO("Entregado");
     private final String etiqueta;
-    EstadoPedido(String etiqueta) { this.etiqueta = etiqueta; }
-    @Override public String toString() { return etiqueta; }
+
+    EstadoPedido(String etiqueta) {
+        this.etiqueta = etiqueta;
+    }
+
+    @Override
+    public String toString() {
+        return etiqueta;
+    }
 }

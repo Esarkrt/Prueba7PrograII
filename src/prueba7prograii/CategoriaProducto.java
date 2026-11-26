@@ -4,15 +4,16 @@
  */
 package prueba7prograii;
 
-
 public enum CategoriaProducto {
-    PLATO("Plato"),BEBIDA("Bebida"),POSTRE("Postre");
+    PLATO("Plato"), BEBIDA("Bebida"), POSTRE("Postre");
     private final String etiqueta;
-    CategoriaProducto(String etiqueta){
-        this.etiqueta=etiqueta;
+
+    CategoriaProducto(String etiqueta) {
+        this.etiqueta = etiqueta;
     }
+
     @Override
-    public String toString(){
+    public String toString() {
         return etiqueta;
     }
 }

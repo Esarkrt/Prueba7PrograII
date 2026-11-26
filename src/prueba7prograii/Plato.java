@@ -9,7 +9,7 @@ import java.io.RandomAccessFile;
 
 public class Plato extends Producto {
 
-    private final int tiempoPreparacion; // minutos
+    private final int tiempoPreparacion;
 
     public Plato(int codigo, String nombre, double precio, int tiempoPreparacion) {
         super(codigo, nombre, precio);
